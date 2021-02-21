@@ -1,0 +1,59 @@
+
+.header{
+background-color: aqua;
+display:flex;
+justify-content:space-between;
+}
+.footer{
+background-color: bisque;
+display:flex;
+justify-content:flex-end
+}
+.grid{
+background-color: #ADFC00;
+display: flex;
+flex-wrap:wrap ;
+justify-content: space-evenly;
+}
+.grid img{
+border: 2px solid red;
+border-radius: 50px;
+}
+p,h2{
+background-color: aqua;
+text-align: center;
+}
+h1{
+margin-left:20px;
+margin-right:20px;
+margin-top:10px;
+margin-bottom:10px;
+padding-left:30px;
+padding-top:20px;
+padding-bottom:20px;
+padding-right:30px;
+}
+a:link{
+color:blue;
+}
+a:visited{
+color:crimson;
+}
+.menu a{
+font-weight: bold;
+}
+.item p{
+position:relative;
+}
+.item:hover p{
+opacity: 0.5;
+}
+.item:hover img{
+opacity:0.33;
+}
+.school li{
+color:red;
+}
+.city li{
+color:slateblue;
+}
